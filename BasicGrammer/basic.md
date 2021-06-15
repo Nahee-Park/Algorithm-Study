@@ -265,7 +265,7 @@
 
    #input값을로 받은 것을 공백 기준으로 나누어 int형으로 바꾼다음 list로 사용
    #그럼 data는 입력받은 값들의 리스트임!!! 정말 많이 쓰임
-   data=list(map.(int,input().spilit()))
+   data=list(map.(int,input().split()))
 
    #세 개의 값만 받는다면 이것도 가능
    #구조분해할당같은 느낌인데 조금 다른 것은 딱 변수 갯수에 맞추지 않으면 오류뜸!
