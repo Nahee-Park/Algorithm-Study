@@ -1,3 +1,4 @@
+# 약수구하기 
 N,K = map(int,input().split())
 
 count = 0
